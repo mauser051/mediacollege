@@ -27,7 +27,7 @@ if (question3 == "teamrocket"){
 } else if (question3 == "leugue"){
     console.log("doordat je geld moet betalen om een afspraak te maken voor gym gevecht moet je geld verdienen")
 } else if (question3 == "school"){
-   console.log("je gaat naar huis en je leeft lang en nog geluukig, end1")
+   console.log("je gaat naar huis en je leeft lang en nog geluukig, ")
    return;
 }
 
@@ -45,7 +45,6 @@ if (question3 == "teamrocket"){
     if(leugue1 == "vechten"){
         console.log("doodat je pikachu te zwak door pijn, verlies je tegen brock niet veel later ging je pikachu dood doordat de pokemon center dicht is en je geen geld hebt om items te kopen")
         console.log("end3")
-        return;
     }else if (leugue1 == "wachten"){
         console.log("na een week wachten was je pikachu volletig goed, na een lange gevecht win je van brock. je krijg je eerste badge")
     }
@@ -58,7 +57,8 @@ if (question3 == "teamrocket"){
         console.log("de belangrijkste item was een volledige witte steen uit een plek ver weg, het is gevonden in een oude gebouw en blijkt onverwoestbaar. je gaat naar unova om het uit te zoeken")
     }else if(teamrocket2 == "werk"){
         console.log("uiteindelijk besloot je toch niets te doen, en je werk veel harder.")
-        console.log("maar team rocket is nog groter geworden, je gaat naar johoto en wordt een baas van een geheime base, waar je een gymleader wordt om als spion de rigion gaat overnemen. maar na een dag werk als gymleader vond je dat enn mystriouse man met ijs type pokemon teamrocket in paar dagen heeft verslagen en de nieuwe baas wordt. wat nu(gaan werken okal is er een nieuwe baas)werk/(ga teamrocket treugnemen)vecht ")
+        console.log("na te hard werken ben je isekai naar een andere wereld door je computer")
+        return;
     }
 
 }
@@ -70,19 +70,53 @@ if (question3 == "leugue"){
         console.log("einde4")
         return;
     }else if(leugue3 == "zoeken"){
-        console.log("na onderzoek blijkt dat er een pokemon die mewtoe heet en alle mensen wilt vangen met een human ball, dus heb je mewtoe gevangen met een pokebal toen die niet oplet")
+        console.log("na onderzoek blijkt dat er een pokemon die mewtoe heet en ")
     }
 }
 
-if (question3 == "leugue"){
-    const leugue3 = rl.question("nadat je mewtwo heb gevangen ben je de beste pokemon trainer geworden maar je hoorde dat andere pokemon wereld zijn en er is technology om daar te gaan(ga niet(niet/(ga wel)ga)")
-        if(leugue3 == "ga") {
-        console.log("je bent naarr andere wereld gegaan en er is nooit meer iets gegoord")
-        console.log("einde5")
+if (question3 == "teamrocket"){
+    const teamrocket3 = rl.question("nadat je in unova bent voel je dat je naat een plek wilt gaan wat doen je het is een trap(slapen/ volgen)")
+    if(teamrocket3  == "slapen"){
+        console.log("in je slaap heeft een pokemon je dood gemaakt")
+        console.log("einde 5")
         return;
-    }else if(leugue3 == "niet"){
-        console.log("20 jaar later... op een van de andere dag was er een metor op aarde gevallen naar hoenn region. er leven geen organisme meer")
-        console.log("einde6")
-        return;
+    } else if (teamrocket3 == "volgen")
+   console.log("uiteindelijk blijk de steen eigenlijk een legendary pokemon te zijn die reshirem heet")
+   console.log("nadat je onverslabaar bent ging je op reis naar andere wereld")
+}  
+
+if (question3 == "school"){
+    const school1 = rl.question("wat wil je doen(leren/eten)")
+    if(school1 == "leren"){
+    console.log("schooldag1: het is leuk")
+    } else if (school1 == "eten"){
+    console.log("schooldag1: het is leuk")
+    }
+}
+
+if (question3 == "school"){
+    const school2 = rl.question("wat wil je doen(leren/eten)")
+    if(school2 == "leren"){
+    console.log("schooldag1000: je leert heel veel en bent klaar met school maar je gaat veder")
+    } else if (school2 == "eten"){
+    console.log("schooldag1000: je heb het niet afgerond maar je gaat door met studie")
+    }
+}
+
+if (question3 == "school"){
+    const school3 = rl.question("wat wil je doen(leren/eten)")
+    if(school3 == "leren"){
+    console.log("schooldag10000: je bent al een proffesor en studeer door")
+    } else if (school3 == "eten"){
+    console.log("schooldag10000: je bent uiteindelijk proffesor")
+    }
+}
+
+if (question3 == "school"){
+    const school3 = rl.question("wat wil je doen(leren/eten)")
+    if(school3 == "leren"){
+    console.log("schooldag100000: je leeft nog? je bent nu de slimste proffesor en je gaat naar andere wereld om te reizen")
+    } else if (school3 == "eten"){
+    console.log("schooldag100000: je bent dood")
     }
 }
